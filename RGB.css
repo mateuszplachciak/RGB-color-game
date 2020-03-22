@@ -2,13 +2,11 @@ body {
   background-color: #232323;
 }
 h1 {
-  color: rgb(60, 255, 0);
+  color: snow;
   text-align: center;
+  background-color: royalblue;
 }
-h3 {
-  color: rgb(60, 255, 0);
-  text-align: center;
-}
+
 .square {
   width: 30%;
   background-color: burlywood;
@@ -16,8 +14,22 @@ h3 {
   float: left;
   margin: 1.66%;
 }
+span {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 24px;
+}
 
 #container {
   max-width: 600px;
   margin: 0 auto;
+}
+#stripe {
+  background-color: rgb(220, 220, 220);
+}
+#reset:hover {
+  background-color: royalblue;
+}
+#message {
+  color: royalblue;
 }
